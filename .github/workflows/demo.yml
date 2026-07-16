@@ -1,9 +1,6 @@
 name: Deploy website
 on:
-  issues:
-    types:
-      - edited
-      - opened
+  push
 
 jobs:
   test:
